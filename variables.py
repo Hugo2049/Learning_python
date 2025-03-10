@@ -14,3 +14,7 @@ f = False
 
 print(a)
 print(e)
+
+"""There are also data types
+    like strings, int, float
+    boolean"""
