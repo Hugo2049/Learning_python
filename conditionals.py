@@ -13,10 +13,21 @@ if a > b:
 else: 
     print('b is bigger than a')
 
-#There is also elif but in my opinion would be better to use a switch maybe
+#There is also elif but in my opinion would be better to use a switch maybe, there is no switch in Python, but there is a match
 
 #other way of writting the if are like this:
 c = 'Jhon'
 d = 'Chad'
 if c == 'Chad': print('hi, your name is' + c); print('how are you?')
 else: print("I don't know you ")
+
+#match statement, I think that is better when you have a lot of choices
+day = 'monday'
+def hello(day):
+        match day:
+            case 'monday':
+                print("I hate monday's")
+            case 'friday':
+                print('time to sleep')
+
+hello(day)
