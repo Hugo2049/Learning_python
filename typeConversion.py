@@ -17,3 +17,8 @@ print('a now is type: ', type(a))
 
 b = str(b)
 print('now b is type: ', type(b))
+
+c = 'True'
+print('c is type: ', type(c))
+c = bool(c)
+print('now is type: ', type(c))
